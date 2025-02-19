@@ -1,0 +1,7 @@
+#!/bin/bash
+
+CURRENT_DIR=$(pwd)
+
+cd $HOME/development/maelstrom
+
+lein run "$@"
